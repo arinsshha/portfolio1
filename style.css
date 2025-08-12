@@ -376,6 +376,9 @@ nav .fas{
     display: block;
     font-size: 25px;
     }
+    .logo{
+        width: 170px;
+    }
     nav ul{
         background: linear-gradient(rgba(0,0,0,0.6),#30c922);
         position: fixed;
@@ -383,7 +386,7 @@ nav .fas{
         right: -200px;
         width: 200px;
         height: 100vh;
-        padding-top: 50px;
+        padding-top: px;
         z-index: 2;
         transition: right 0.2s;
     }
@@ -449,5 +452,17 @@ nav .fas{
     width: 6cm;
     height: 5cm;
     }
+    .work-list {
+        grid-template-columns: 1fr; /* ek column full width */
+        grid-gap: 20px; /* gap kam kiya */
+    }
 
+    .work {
+        min-height: 250px; /* height badhayi */
+    }
+
+    .work img {
+        width: 100%;
+        height: auto; /* proportion maintain */
+    }
 }
